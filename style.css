@@ -1,0 +1,442 @@
+.logo img
+{
+    padding-left: 60px;
+}
+.menu
+{
+    padding-left: 64px;
+}
+.menu li a
+{
+    gap: 100px;
+}
+.list
+{
+    padding-left: 32px;
+}
+.SignUpButton
+{
+    color: var(--primary-600, #437EF7);
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 22px;
+    padding-right: 32px;
+}
+.LoginButton
+{
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 22px;
+}
+.ContactUs
+{
+    border-color: white;
+    color: var(--primary-600, #437EF7);
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 22px; /* 146.667% */
+    background-color: white;
+}
+.Buttons
+{
+    padding-right: 60px;
+}
+
+.review
+{
+    background: var(--primary-900, #2B63D9);
+}
+.review p
+{
+    color: var(--primary-200, #B1CCFB);
+    text-align: center;
+
+/* Text L/Regular */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    padding-bottom:64px;
+}
+.review h2
+{
+    padding-top:64px;
+    color: var(--base-white, #FFF);
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.64px;
+    
+}
+
+.customPadding
+{
+    background: var(--base-white, #FFF); padding-top: 64px; padding-bottom: 64px;
+}
+.imag
+{
+    width: 560px;
+    height: 560px;
+}
+
+.name
+{
+   display: flex;
+   align-items: center;
+}
+.icon
+{
+    border-radius: 30px;
+    background: var(--primary-600, #437EF7);
+    max-width: 14%;
+    align-items: center;
+}
+.buttn button
+{
+    border-radius: 6px;
+    background: var(--base-white, #FFF);
+}
+.icon image
+{
+    width: 32px;
+    height: 32px;
+}
+.MainBanner h2
+{
+    color: var(--gray-700, #272D37);
+font-family: Inter;
+font-size: 52px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 115.385% */
+letter-spacing: -0.52px;
+}
+.MainBanner
+{
+    background-color:#FFFFFF;
+}
+.MainBanner p
+{
+    color: var(--gray-50, #5F6D7E);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 144.444% */
+letter-spacing: -0.1px;
+}
+.ImgText
+{
+    color: var(--primary-600, #437EF7);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; /* 142.857% */
+letter-spacing: -0.1px;
+}
+.Banner
+{
+    padding-left:100px; 
+    padding-right:100px;
+}
+
+
+@media (min-width: 992px) {
+    .customMar
+{
+    padding-left: 100px;
+}
+.LoginDis
+{
+    display: none;
+}
+}
+@media screen and (max-width: 767px) {
+    /* Hide the navbar on screens smaller than 768px (mobile and tablet) */
+    .LoginButton{
+      display: none;
+    }
+    .SignUpButton
+    {
+        display: none;
+    }
+    .Banner
+    {
+        padding-left: 40px;
+        padding-right: 0px;
+    }
+   .delete{
+    display: none;
+   }
+   .customPad
+   {
+    padding-left: 0px;
+    flex: 0%;
+   }
+   .customMar1
+{
+    padding-left: 0px;
+    max-width: 37%;
+    padding-right: 50px;
+}
+}
+
+.Reviews .card
+{
+    border-radius: 5px;
+    background: var(--primary-700, #3971E7);
+}
+.Reviews button
+{
+    border-radius: 6px;
+background: var(--base-white, #FFF);
+color: var(--primary-600, #437EF7);
+
+/* Text Button/Semibold Large */
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 22px; /* 146.667% */
+}
+.Reviews h5
+{
+    color: var(--base-white, #FFF);
+
+/* Headline XS/Desktop/Semibold */
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; /* 136.364% */
+letter-spacing: -0.22px;
+}
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+.footer-elements a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.footer-links p {
+ 
+  padding-left: 0px;
+  color: var(--neutral-800, #a5acba);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+}
+.coreSubtitle
+{
+  color: var(--primary-600, #437EF7);
+
+/* Text L/Regular */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: -0.1px;
+}
+.coreDes
+{
+  color: var(--gray-50, #5F6D7E);
+
+/* Text L/Regular */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: -0.1px;
+}
+.coreTitle 
+{
+  color: var(--gray-700, #272D37);
+
+/* Headline XS/Desktop/Semibold */
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; /* 136.364% */
+letter-spacing: -0.22px;
+}
+.footer-links h5 {
+  
+  padding-left: 0px;
+  padding-bottom: 16px;
+  color: var(--neutral-200, #f9f9f9);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+}
+.footer-elements .input-group-text,
+.action .input-group-text {
+  background-color: #437ef7;
+  color: #fff;
+  border: transparent;
+}
+.footer-elements .form-control {
+  border: transparent;
+  background-color: #2e3545;
+  padding: 10px;
+}
+.copyRights p {
+  text-align: center;
+  color: var(--neutral-800, #a5acba);
+  text-align: center;
+
+  /* Text L/Regular */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.1px;
+}
+.SignUpContainer {
+  background: var(--primary-900, #2b63d9);
+}
+
+.SignUpContainer h3 {
+  color: var(--base-white, #fff);
+  text-align: center;
+
+  /* Headline M/Desktop/Semibold */
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 42px; /* 131.25% */
+  letter-spacing: -0.32px;
+}
+.SignUpContainer button {
+  border-radius: 6px;
+  background: var(--base-white, #fff);
+  border-color: #fff;
+  color: var(--primary-600, #437ef7);
+  text-align: center;
+
+  /* Text Button/Semibold Large */
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 146.667% */
+}
+.Descripton {
+  color: var(--gray-50, #5f6d7e);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; 
+  letter-spacing: -0.1px;
+}
+
+.review-box {
+  border: 1px solid var(--neutral-600, #eaebf0);
+}
+.review-box p {
+  color: var(--gray-700, #272d37);
+
+  /* Text L/Medium */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.1px;
+}
+
+.review-box .status {
+  color: var(--gray-50, #5f6d7e);
+  /* Text L/Medium */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.1px;
+}
+.review-box-main p {
+  color: var(--gray-50, #5f6d7e);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+}
+.review-box-main h6 {
+  color: var(--gray-700, #272d37);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.1px;
+}
+
+.newButton {
+  border-radius: 15px;
+  background: var(--primary-25, #fcfcfc);
+  color: #7ca3f8;
+  border: none;
+}
+.AskedQuestions h3 {
+  color: var(--gray-700, #272d37);
+  text-align: center;
+
+  /* Headline M/Desktop/Bold */
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 125% */
+  letter-spacing: -0.64px;
+}
+.StartNow p
+{
+  color: var(--primary-600, #437EF7);
+
+/* Text S/Semibold */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; /* 142.857% */
+letter-spacing: -0.1px;
+}
+
+.Reviews p
+{
+    color: var(--primary-200, #B1CCFB);
+
+/* Text L/Regular */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: -0.1px;
+}
